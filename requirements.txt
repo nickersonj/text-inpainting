@@ -1,0 +1,5 @@
+diffusers==0.7.2
+accelerate==0.14.0
+transformers==4.24.0
+ftfy==6.1.1
+git+https://github.com/openai/CLIP.git@d50d76daa670286dd6cacf3bcd80b5e4823fc8e1

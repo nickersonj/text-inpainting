@@ -60,7 +60,7 @@ def plot_masks(input_image, prompts, mask_images):
     ax[0].imshow(input_image)
     ax[0].text(0, -15, 'input')
     [ax[i+1].imshow(torch.sigmoid(mask_images[i][0]), cmap='gray') for i in range(n)]
-    [ax[i+1].text(0, -15, '"' + prompts[i] + '" mask') for i in range(n)]
+    [ax[i+1].text(0, -15, '"' + prompts[i] + '"') for i in range(n)]
     plt.show()
 
 

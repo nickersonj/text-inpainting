@@ -129,5 +129,6 @@ dmypy.json
 .pyre/
 
 .DS_Store
+images/.DS_Store
 clipseg
 dev
